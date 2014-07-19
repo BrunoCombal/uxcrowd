@@ -1,4 +1,5 @@
-p{font-family:verdana, sans-serif; font-size:18px; color:#A0A0A0}
+p {font-family:verdana, sans-serif; font-size:18px; color:#A0A0A0}
+
 .topbanner{
 	font-family: verdana, sans-serif;
 	font-size:16px;
@@ -11,3 +12,6 @@ p{font-family:verdana, sans-serif; font-size:18px; color:#A0A0A0}
 	list-style-type:none;
 	padding-right:20px;
 }
+
+.fineprints{font-family:verdana, sans-serif; font-size:10px; color:#000000}
+
