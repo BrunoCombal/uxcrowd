@@ -1,0 +1,13 @@
+p{font-family:verdana, sans-serif; font-size:18px; color:#A0A0A0}
+.topbanner{
+	font-family: verdana, sans-serif;
+	font-size:16px;
+	color:#0D0D0D;
+	background-color:#e2e2e2;
+	text-align:right;
+}
+.topbanner li{
+	display: inline;
+	list-style-type:none;
+	padding-right:20px;
+}
