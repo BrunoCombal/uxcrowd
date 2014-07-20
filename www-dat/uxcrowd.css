@@ -13,5 +13,12 @@ p {font-family:verdana, sans-serif; font-size:18px; color:#A0A0A0}
 	padding-right:20px;
 }
 
+.slides{
+	font-family: verdana, sans-serif;
+	font-size:16px;
+	color:#0D0D0D;
+	width:400px;
+}
+
 .fineprints{font-family:verdana, sans-serif; font-size:10px; color:#000000}
 

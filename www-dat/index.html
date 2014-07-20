@@ -1,61 +1,65 @@
 <html>
 <head>
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <meta http-equiv="Content-Language" content="en" />
- <link rel="stylesheet" type="text/css" href="uxcrowd.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<link rel="stylesheet" type="text/css" href="uxcrowd.css">
  
- <!-- jQuery library (served from Google) -->
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
- <!-- bxSlider Javascript file -->
- <script src="../../bxslider-4/jquery.bxslider.min.js"></script>
- <!-- bxSlider CSS file -->
- <link href="../../bxslider-4/jquery.bxslider.css" rel="stylesheet" />
+ 	<!-- jQuery library (served from Google) -->
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+ 	<!-- bxSlider Javascript file -->
+ 	<script src="../../bxslider-4/jquery.bxslider.min.js"></script>
+ 	<!-- bxSlider CSS file -->
+ 	<link href="../../bxslider-4/jquery.bxslider.css" rel="stylesheet" />
  
- <!-- configure bxslider -->
- <script >
-  $(document).ready(function(){
-  $('.bxslider').bxSlider();
-  });
- </script>
+	<!-- configure bxslider -->
+	<script >
+	    $(document).ready(function(){
+	        $('.bxslider').bxSlider({
+	            mode: 'fade',
+	            captions: false,
+	            //pagerCustom: '#bx-pager',
+	            adaptiveHeight: false,
+	            slideWidth: 500
+	        });
+	    });
+	</script>
  
- <title>
-  UX-Crowd
- </title>
+    <title>
+        UX-Crowd
+    </title>
 </head>
 
 <!-- Body -->
 <body>
 
-<!-- Top Banner -->
-<div class="topbanner">
-   <ul>
-    <li>Test-UX</li>
-    <li>News</li>
-    <li>&nbsp;</li>
-    <li>Sign up</li>
-    <li>Sign in</li>
-   </ul>
- </div>
+    <!-- Top Banner -->
+    <div class="topbanner">
+        <ul>
+        <li>Test-UX</li>
+        <li>News</li>
+        <li>&nbsp;</li>
+        <li>Sign up</li>
+        <li>Sign in</li>
+        </ul>
+    </div>
 	
-<!-- Catch phrase -->
-<p>
-Crowd-test your User Interface<br/>
-</p>
+    <!-- Catchy phrase -->
+    <p>
+        Crowd-test your User Interface<br/>
+    </p>
 
-<!-- Slider: explanations -->
-<ul class="bxslider">
-  <li><iframe src="iframes/about.html" width="400px" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
-  <li><iframe src="iframes/register.html" width="400px" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
-  <li><iframe src="iframes/review.html" width="400px" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
-  <li>Une fin</li>
-</ul>
-</div>
-
-<!-- Footer -->
-<hr/>
-<div class="fineprints">
-&copy; Roquette Dev, 2014
-</div>
+    <!-- Slider: explanations -->
+        <ul class="bxslider margin:0 auto;">
+            <li><iframe src="iframes/about.html" width="400px" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
+            <li><iframe src="iframes/register.html" width="400px" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
+            <li><iframe src="iframes/review.html" width="400px" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
+            <li>Une fin</li>
+        </ul>
+    <!-- Footer -->
+    <hr/>
+    <div class="fineprints">
+        &copy; Roquette Dev, 2014
+    </div>
 
 </body>
 </html>
