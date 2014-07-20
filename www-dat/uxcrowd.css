@@ -33,5 +33,10 @@ hr {border:0px; width:100%; color:#e2e2e2; background-color:#e2e2e2; height:2px}
 	color:#A0A0A0
 }
 
+.boxhead a {
+    color: orange;
+    text-decoration: none;
+}
+
 .fineprints{font-family:verdana, sans-serif; font-size:10px; color:#000000}
 
