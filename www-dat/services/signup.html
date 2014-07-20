@@ -1,0 +1,33 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<link rel="stylesheet" type="text/css" href="../uxcrowd.css">
+    <!-- jQuery library (served from Google) -->
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+ 	<!-- bxSlider Javascript file -->
+ 	<script src="../libs/bxslider-4/jquery.bxslider.min.js"></script>
+ 	<!-- bxSlider CSS file -->
+ 	<link href="../libs/bxslider-4/jquery.bxslider.css" rel="stylesheet" />
+
+	<!-- configure bxslider -->
+	<script >
+	    $(document).ready(function(){
+	        $('.bxslider').bxSlider({
+	            mode: 'horizontal',
+	            captions: false,
+	            //pagerCustom: '#bx-pager',
+	            adaptiveHeight: false,
+	            slideWidth: 500
+	        });
+	    });
+	</script>
+
+
+	<body>
+        <ul class="bxslider">
+        <li><iframe src="signup_register.html" width="400px" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
+        <li><iframe src="signup_profile.html" width="400px" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
+        <li><iframe src="signup_chooseplan.html" width="400px" height="400px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>           
+        </ul>
+	</body>
+</head>
